@@ -1,29 +1,52 @@
-# Deep_Learning
+# Deep Learning
 
-Source code and project resources for Deep_Learning.
+**Learning archive** · A neural-network learning project for customer churn prediction.
 
 ## Overview
 
-This repository contains the source code and resources for **Deep_Learning**.
+A neural-network learning project for customer churn prediction.
 
-## Technologies
+## Technology Stack
 
-- Jupyter Notebook
+- `Python`
+- `Jupyter Notebook`
 
-## Getting Started
+## How the Repository Works
 
-```bash
-git clone https://github.com/Kanishq10/Deep_Learning.git
-cd Deep_Learning
+```mermaid
+flowchart LR
+    N0["Dataset<br/> Load raw data"]
+    N1["Preparation<br/> Clean, transform, and split"]
+    N0 --> N1
+    N2["Model / Analysis<br/> Train or analyze"]
+    N1 --> N2
+    N3["Outcome<br/> Metrics, predictions, or report"]
+    N2 --> N3
 ```
 
-Review the project files and configuration to install dependencies and start the application.
+| Stage | Responsibility |
+|---|---|
+| **Dataset** | Load raw data |
+| **Preparation** | Clean, transform, and split |
+| **Model / Analysis** | Train or analyze |
+| **Outcome** | Metrics, predictions, or report |
 
-## Repository Contents
+## Concepts Covered
+
+- Neural networks
+- Feature preprocessing
+- Model training
+- Binary classification
+- Evaluation metrics
+
+## Repository Map
 
 - `Churn_Modelling_ANN.ipynb`
-- `README.md`
 
-## Contributing
+## Recruiter Summary
 
-Contributions are welcome. Fork the repository, create a feature branch, and open a pull request.
+This repository shows hands-on practice, iterative learning, and problem-solving across the technologies listed above. It is most useful as evidence of foundational growth and experimentation rather than as a production release.
+
+---
+
+<sub>Documentation is concise and project-focused; source code was not modified.</sub>
